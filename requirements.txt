@@ -3,3 +3,6 @@ langchain
 langchain-community
 langchain-groq
 langchain-ollama
+chromadb
+huggingface_hub
+sentence-transformers
