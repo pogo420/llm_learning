@@ -1,0 +1,5 @@
+notebook
+langchain
+langchain-community
+langchain-groq
+langchain-ollama
