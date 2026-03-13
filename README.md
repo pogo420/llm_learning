@@ -84,3 +84,13 @@ P(“The cat sleeps”) = P(the) X P(cat | The) X P(sleeps | The, Cat)
 * Search query is converted into embeddings and document similarity is calculated for records.
 * Search results are sorted by descending order of document similarity.
 * Example of vector database: chromaDB
+
+
+# RAG:
+## Intro:
+* RAG -> Retrieval augmented generation.
+* Most common usecase in industry.
+* Common architecture:
+```
+| Documents | --> | Splits | -> VDB -> Retrieval -> Prompt -> LLM -> Answer
+```
